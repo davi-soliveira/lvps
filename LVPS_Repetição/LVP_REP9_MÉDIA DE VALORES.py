@@ -2,6 +2,7 @@ def main():
     #declaração de variavel
     numero = int(0)
     soma = 0
+    media = int(0)
     #contador e 
     i = 1
     while i <= 5:
@@ -9,7 +10,8 @@ def main():
         
         soma = soma + numero
         i = i + 1
-    print(soma)
+        media = soma/5
+    print(media)
     
     
     

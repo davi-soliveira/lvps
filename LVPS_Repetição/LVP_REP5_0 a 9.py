@@ -3,9 +3,9 @@ def main():
     i = int(0)
     
     #processamento
-    while(i <=10):
+    while(i <10):
         print(i)
-        i = i + 2
+        i = i + 1
     
     return 0
     
